@@ -1,10 +1,11 @@
 html {
     background-color: antiquewhite;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
+h3 {
+    color: gray;
 }
 
 .remiGif {
@@ -15,4 +16,10 @@ h1 {
 }
  #horizontalList li {
     display:inline;
+}
+
+.listItems {
+    font-size: large;
+    width: auto;
+    color: darksalmon;
 }
