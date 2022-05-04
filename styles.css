@@ -1,11 +1,14 @@
 html {
     background-color: antiquewhite;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     color: gray;
+}
+
+.titlePage,#horizontalList {
+    text-align: center;
 }
 
 .remiGif {
@@ -14,6 +17,25 @@ h3 {
     margin-right: auto;
     width: 50%;
 }
+
+.recipeTitle {
+    float: right;
+    margin-right: auto;
+    color: chocolate;
+}
+
+
+.recipeImage {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.recipeDescription {
+    float: left;
+    color: gray;
+}
+
  #horizontalList li {
     display:inline;
 }
@@ -22,4 +44,8 @@ h3 {
     font-size: large;
     width: auto;
     color: darksalmon;
+}
+
+.ingredients,.directions {
+    float: left;
 }
