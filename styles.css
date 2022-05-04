@@ -1,5 +1,6 @@
 html {
     background-color: antiquewhite;
+    text-align: center;
 }
 
 h1 {
@@ -8,6 +9,9 @@ h1 {
 
 .remiGif {
     display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
  #horizontalList li {
     display:inline;
